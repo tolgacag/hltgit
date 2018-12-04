@@ -62,7 +62,6 @@ import MainMenu from '../views/MainMenu/MainMenu.jsx';
 import BriefEdit from '../views/Brief/BriefEdit';
 import MusteriEdit from '../views/Musteri/MusteriEdit.jsx';
 import PazarlamaEdit from '../views/Pazarlama/PazarlamaEdit.jsx';
-
 var pages = [
   {
     path: '/timeline-page',
