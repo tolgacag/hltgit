@@ -172,6 +172,15 @@ var dashRoutes = [
   { path: '/odeme', name: 'Ödeme', icon: FlightTakeoff, component: Odeme },
   { path: '/Ayarlar', name: 'Ayarlar', icon: DateRange, component: Ayarlar },
 
+  {
+    collapse: true,
+    path: '-page',
+    name: 'Pages',
+    state: 'openPages',
+    icon: Image,
+    views: pages,
+  },
+
   { redirect: true, path: '/', pathTo: '/mainmenu', name: 'MainMenu' },
 ];
 export default dashRoutes;

@@ -14,7 +14,6 @@ import Check from '@material-ui/icons/Check';
 import Person from '@material-ui/icons/Person';
 import Edit from '@material-ui/icons/Edit';
 import Close from '@material-ui/icons/Close';
-
 // core components
 import GridContainer from 'components/Grid/GridContainer.jsx';
 import GridItem from 'components/Grid/GridItem.jsx';
