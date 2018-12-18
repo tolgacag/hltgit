@@ -55,6 +55,7 @@ import TedarikciEdit from '../views/Tedarikci/TedarikciEdit';
 import Tahsilat from '../views/Tahsilat/Tahsilat';
 import TahsilatEdit from '../views/Tahsilat/TahsilatEdit';
 import Odeme from '../views/Odeme/Odeme';
+import OdemeEdit from '../views/Odeme/OdemeEdit';
 import Ayarlar from '../views/Ayarlar/Ayarlar';
 import ProjeEdit from '../views/Proje/ProjeEdit';
 import TeklifEdit from '../views/Teklif/TeklifEdit.jsx';
@@ -107,10 +108,17 @@ var pages = [
   },
 
   {
+    path: '/odemeEdit',
+    name: 'Ödeme Edit',
+    icon: FlightTakeoff,
+    component: OdemeEdit,
+  },
+
+  {
     path: '/tahsilatedit',
     name: 'Tahsilat Edit',
     icon: Input,
-    component: TedarikciEdit,
+    component: TahsilatEdit,
   },
   {
     path: '/projeedit',
